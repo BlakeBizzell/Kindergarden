@@ -39,7 +39,7 @@ export default function Hero() {
               textAlign: "center",
             }}
           >
-            Mrs Bizzell's &nbsp;
+            Mrs Bizzell&apos;s &nbsp;
             <Typography component="span" variant="h2">
               Class Resources
             </Typography>
@@ -61,7 +61,7 @@ export default function Hero() {
               variant="contained"
               color="primary"
               component={Link}
-              to="/Sign-Up"
+              to="/resources"
             >
               Lets Begin
             </Button>
