@@ -39,24 +39,16 @@ export default function Hero() {
               textAlign: "center",
             }}
           >
-            DMs &nbsp;
-            <Typography
-              component="span"
-              variant="h2"
-              sx={{
-                color: (theme) =>
-                  theme.palette.mode === "light"
-                    ? "primary.main"
-                    : "primary.light",
-              }}
-            >
-              Bag of Holding
+            Mrs Bizzell&apos;s &nbsp;
+            <Typography component="span" variant="h2">
+              Class Resources
             </Typography>
           </Typography>
           <Typography variant="body1" textAlign="center" color="text.secondary">
-            Explore our Game Master dashboard, delivering high-quality Dungeon
-            Master solutions tailored to your needs. <br />
-            Elevate your experience with top-tier features and services.
+            Dive into our Kindergarten Video Hub! 🎥📚 Dive into captivating
+            educational content designed to spark imagination and ignite
+            learning adventures! 🚀 Join us in exploring endless possibilities
+            together! 🌟
           </Typography>
           <Stack
             direction={{ xs: "column", sm: "row" }}
@@ -69,9 +61,9 @@ export default function Hero() {
               variant="contained"
               color="primary"
               component={Link}
-              to="/Sign-Up"
+              to="/resources"
             >
-              Start now
+              Lets Begin
             </Button>
           </Stack>
           <Typography
@@ -79,8 +71,7 @@ export default function Hero() {
             textAlign="center"
             sx={{ opacity: 0.8 }}
           >
-            Click &quot;Start now&quot; to create a free account and begin your
-            Adventure
+            Click &quot;Lets Begin&quot; to gain access to the video resources.
           </Typography>
         </Stack>
       </Container>
