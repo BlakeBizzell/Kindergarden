@@ -171,3 +171,4 @@ const Resources = () => {
 };
 
 export default Resources;
+// need to make it so that only specific items are pulled by class
